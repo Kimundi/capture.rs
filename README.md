@@ -1,7 +1,7 @@
 capture.rs
 ==============
 
-[![Travis-CI Status](https://travis-ci.org/Kimundi/lazy-static.rs.png?branch=master)](https://travis-ci.org/Kimundi/lazy-static.rs)
+[![Travis-CI Status](https://travis-ci.org/Kimundi/capture.rs.png?branch=master)](https://travis-ci.org/Kimundi/capture.rs)
 
 A macro for adding explicit capture clauses to a (closure-) expression.
 
