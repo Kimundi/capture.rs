@@ -1,17 +1,17 @@
 [package]
 
-name = "lazy_static"
-version = "0.1.1"
+name = "capture"
+version = "0.1.0"
 authors = [ "loebel.marvin@gmail.com" ]
 
 
 # A short blurb about the package. This is not rendered in any format when
 # uploaded to crates.io (aka this is not markdown)
-description = "A macro for declaring lazily evaluated statics in Rust."
+description = "A macro for adding explicit capture clauses to a (closure-) expression."
 
 # These URLs point to more information about the repository
-documentation = "http://rust-ci.org/Kimundi/lazy-static.rs/doc/lazy_static/"
-repository = "https://github.com/Kimundi/lazy-static.rs"
+documentation = "http://rust-ci.org/Kimundi/capture.rs/doc/capture/"
+repository = "https://github.com/Kimundi/capture.rs"
 
 # This points to a file in the repository (relative to this Cargo.toml). The
 # contents of this file are stored and indexed in the registry.
@@ -19,7 +19,7 @@ readme = "README.md"
 
 # This is a small list of keywords used to categorize and search for this
 # package.
-keywords = ["macro", "lazy", "static"]
+keywords = ["macro", "capture", "closure", "clause"]
 
 # This is a string description of the license for this package. Currently
 # crates.io will validate the license provided against a whitelist of known
@@ -28,4 +28,4 @@ license = "MIT"
 
 [lib]
 
-name = "lazy_static"
+name = "capture"
